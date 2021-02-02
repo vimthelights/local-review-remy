@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  z-index: 5;
+  position: fixed;
+  left: 0;
+}
+
+#homeDetails {
+  margin-top: 40px
+}
+
+#priceHistory {
+  margin-bottom: 40px
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#footer {
+  width: 100%;
+  max-width: 1000px;
+}
